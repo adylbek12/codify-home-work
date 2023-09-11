@@ -1,0 +1,35 @@
+div {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    font-size: 15px;
+}   
+.square {
+    background-color: black;
+    color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 0%;
+}
+.rectangle {
+    background-color: chartreuse;
+    width: 300px;
+    height: 150px;
+    border-radius: 0%;
+    color: blueviolet;
+}
+.circle {
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: darkgreen;
+}
+.ellipse {
+    background-color: rgb(48, 5, 10);
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    color: deeppink;
+}
