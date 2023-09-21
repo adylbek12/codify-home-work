@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(27, 27, 32);
+
+}
+.box {
+    position: relative;
+    width: 1200px;
+    height: 950px;
+    border-radius: 30px;
+    background-color: rgb(236, 131, 40);
+    padding: 45px 60px;
+    box-shadow: 25px 25px 75px darkslateblue;
+    margin: 65px 0 65px 0;
+    opacity: 75%;
+
+}
+h2 {
+    width: 100%;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(247, 246, 243);
+    font-size: 3em;
+    opacity: 90%
+}
+.ow {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: blue;
+    justify-content: left;
+}
+
+
+.bird {
+justify-self: right;
+}
+.ul {
+    position: relative;
+    width: 100%;
+    outline: none;
+    padding: 20px 27px;
+    margin-top: 27px;
+    border-radius: 30px;
+    background-color: rgb(247, 244, 243);
+    font-size: 34px;
+    box-shadow: 5px 7px 8px coral;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+input {
+    height: 25px;
+    width: 25px;
+}
+.par {
+    position: relative;
+    width: 100%;
+    outline: none;
+    padding: 20px 27px;
+    margin-top: 27px;
+    border-radius: 30px;
+    background-color: rgb(239, 133, 61);
+    font-size: 34px;
+    box-shadow: 5px 7px 8px coral;
+    height: 120px;
+    border: none;
+
+    font-family: 'Times New Roman', Times, serif;
+}
