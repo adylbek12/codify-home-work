@@ -1,0 +1,47 @@
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+}
+
+.element:hover {
+    
+    animation: lups 3s ease forwards,5s linear forwards,1s;
+}
+
+
+    
+
+@keyframes lups {
+    0% {
+        transform: scale(1) translateX(0) ; background-color:black ;
+    }
+    100% {
+        transform: scale(1.5) translateX(600px); background-color: aqua; 
+    }
+
+}
+.chcolor {
+    margin-top: 150px;
+    height: 200px;
+    width: 150px;
+    background-color: aqua;
+    animation: changeBackroundColor 3s infinite;
+}
+@keyframes changeBackroundColor {
+    0% {
+        background-color: aqua;
+    }
+    50% {
+        background-color: blueviolet;
+    }
+    100% {
+        background-color: black;
+    }
+}
+.active1 {
+    height: 100px;
+    width: 100px;
+    animation: active1;
+}
