@@ -1,0 +1,33 @@
+@media screen and (max-width: 1200px) {
+    /* Изменения для экранов шириной до 1200px */
+    .square {
+        border-radius: 50%; /* Превращаем квадрат в круг */
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 883px) {
+    /* Изменения для экранов шириной до 883px */
+    .circle {
+        border-radius: 0; /* Превращаем круг в прямоугольник */
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 540px) {
+    /* Изменения для экранов шириной до 540px */
+    .rectangle {
+        display: none; /* Скрываем прямоугольник */
+    }
+    .circle {
+        border-radius: 50%; /* Превращаем круг обратно в круг */
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 320px) {
+    /* Изменения для экранов шириной до 320px */
+    .oval {
+        display: none; /* Скрываем овал */
+    }
+}

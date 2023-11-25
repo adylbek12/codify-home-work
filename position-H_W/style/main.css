@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* Голубой цвет для квадрата */
+}
+
+@media screen and (max-width: 1200px) {
+    .square {
+        position: absolute; /* При разрешении до 1200px, используем position: absolute */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .square {
+        position: static; /* При разрешении до 1024px, используем position: static */
+    }
+}
+
+/* Добавьте дополнительные медиа-запросы и стили по мере необходимости для других разрешений */
+
+
