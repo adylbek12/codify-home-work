@@ -1,24 +1,18 @@
-document.addEventListener('keydown',function (event) {
-    if (event.key === 'r'){
-        document.body.style.backgroundColor= 'red' ;     
+document.addEventListener('keydown', function (event) {
+    if (event.key === 'r') {
+        document.body.style.backgroundColor = 'red';
+    } else if (event.key === 'g') {
+        document.body.style.backgroundColor = 'green';
+    } else if (event.key === 'b' && !event.shiftKey) {
+        document.body.style.backgroundColor = 'blue';
+    } else if (event.key === 'w') {
+        document.body.style.backgroundColor = 'white';
+    } else if (event.key === 'b' && event.shiftKey) {
+        document.body.style.backgroundColor = 'black';
+    } else if (event.key === 'g' && event.shiftKey) {
+        document.body.style.backgroundColor = 'gray';
     }
-    else if (event.key === 'g'){
-        document.body.style.backgroundColor= 'green';
-    }    
-    else if (event.key === 'b'){
-            document.body.style.backgroundColor= 'blue'
-
-    }
-    else if (event.key === 'w'){
-        document.body.style.backgroundColor= 'white'
-    }
-    else if (event.key === 'b'&& event.Shiftkey ){
-        document.body.style.backgroundColor= 'black'
-    }          
-    else if (event.key === 'g' && event.Shiftkey ){
-        document.body.style.backgroundColor= 'grey'
-    }          
-})
+});
 
 
 let i = 2;
