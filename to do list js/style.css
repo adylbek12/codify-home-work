@@ -1,4 +1,4 @@
-/* body {
+body {
   background-color: #FFD78A;
   font-family: sans-serif;
   -webkit-box-sizing: content-box;
@@ -84,4 +84,4 @@ input[type=checkbox]:checked + label:before {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   border-radius: 0;
-  margin: 0 15px 5px 5px; } */
+  margin: 0 15px 5px 5px; }
